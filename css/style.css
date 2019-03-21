@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+.box {
+    background: #ea47f3;
+    color: #fff;    
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background: #222;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: 
+        "who who who . . . . . . . ."
+        "what what what home home resume resume projects projects contact contact"
+        "photo photo photo photo photo hello hello hello hello hello hello"
+        "photo photo photo photo photo abam abam abam abam abam abam"
+        "photo photo photo photo photo myresume myresume mywork mywork myskills myskills"
+        "photo photo photo photo photo myresume myresume mywork mywork myskills myskills"
+        "footer footer footer footer footer footer footer footer"
+        "footer footer footer footer footer footer footer footer"
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+    justify-self: start;
+    border-style: solid;
+    border-width: thick;
+    border-color: gold;
+    margin: 0 auto;
+    color: crimson;
+    font-family: fantasy;
+    height: 100px;
+    font-size: 32px;
+}
+
+.maincont, .single-row {
+    border-style: solid;
+    border-width: thick;
+    width: auto;
+    height: 100%;
+}
+
+.maincont {
+    border-color: red;
+    margin: 0 auto;
+}
+
+.single-row{
+    border-color: blue;
+}
+
+.col-left, .col-right {
+    border-style: solid;
+    border-width: medium;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: auto 2px;
+    height: 80%;
+}
+
+.col-left {
+    width: 60%;
+    border-color: orange;
+}
+
+.col-left img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.col-right {
+    width: 30%;
+    border-color: springgreen;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.logo .name {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.mainsection {
+    
+}
