@@ -1,10 +1,17 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Advent Pro', sans-serif;
     background-color: #EAE4E4;
     font-size: 1.5rem;
     height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
 }
-
+header {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
 main {
     width: 100%;
     display: flex;
@@ -20,39 +27,83 @@ footer {
 
 section {
     margin: 0 auto;
-
 }
 
 .clear-fix {
     clear: both;
 }
 
-.logo {
-    justify-self: start;
-    border-style: solid;
+
+
+
+
+.logo { 
+    /* border-style: solid;
     border-width: thick;
-    border-color: gold;
-    margin: 0 auto;
+    border-color: yellow; */
     color: crimson;
-    font-family: fantasy;
-    height: 100px;
-    font-size: 32px;
+    height: auto;
+    width: 30%;
+    flex: 1;
 }
 
-.logo .name {
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 15px;
+
+h2, h5{
+    padding: 2% 0 0 4%;
+    text-align: center;
 }
+
+h2{
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+
+
+
+
+nav {
+    /* border-style: solid;
+    border-color: greenyellow; */
+    flex: 2;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  * {box-sizing: border-box;}
+  
+  li {
+    float: left;
+    padding: 1em;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  li:hover{
+    background-color: #ddd;
+  }
+  
+
 
 .photo{
     flex: 1;
-    border-style: solid;
-    border-width: thick;
+    /* border-style: solid;
+    border-width: thick; */
     width: auto;
     height: 100%;
     border-color: red;
-    margin-left: 5%;
+    margin-left: 2.5%;
 }
 .photo img{
     width: 100%;
