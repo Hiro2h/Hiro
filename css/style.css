@@ -10,7 +10,8 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    height: 150px;
+    height: 150px; 
+    position: relative;
 }
 main {
     width: 100%;
@@ -38,7 +39,7 @@ section {
 
 
 .logo { 
-    /* border-style: solid;
+   /*  border-style: solid;
     border-width: thick;
     border-color: yellow; */
     color: crimson;
@@ -46,7 +47,6 @@ section {
     width: 30%;
     flex: 1;
 }
-
 
 h2, h5{
     padding: 2% 0 0 4%;
@@ -60,8 +60,6 @@ h2{
 
 
 
-
-
 nav {
     /* border-style: solid;
     border-color: greenyellow; */
@@ -71,15 +69,20 @@ nav {
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 0 auto;
     overflow: hidden;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    height: 150px;
+    line-height: 80px;
   }
   * {box-sizing: border-box;}
   
   li {
     float: left;
     padding: 1em;
+    /* border-style: solid;
+    border-color: red; */
   }
   
   li a {
@@ -94,7 +97,7 @@ ul {
     background-color: #ddd;
   }
   
-
+  
 
 .photo{
     flex: 1;
